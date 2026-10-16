@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# Landing de Génesis Ojeda
 
-## Getting Started
+Landing responsive en Next.js. Atención psicológica online para adultos, enfoque cognitivo conductual, sesiones de 60 minutos a Gs. 150.000. Cancelación o reprogramación con al menos 2 horas de anticipación.
 
-First, run the development server:
+## Desarrollo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Ejecutar `yarn dev` y abrir http://localhost:3000.
+- Compilar con `yarn build`; ejecutar producción con `yarn start`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contacto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Los dos enlaces se editan en `app/site-config.ts`.
+WhatsApp temporal: +595 983 757264, autorizado por el propietario.
+Calendly temporal: https://calendly.com/; todavía no permite reservar con Génesis.
+Reemplazar ambos cuando estén disponibles las cuentas definitivas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Imagen
 
-## Learn More
+`public/images/genesis-portrait.png` es un retrato generado con la herramienta integrada de imagen usando las tres fotografías proporcionadas como referencia de identidad. Revisar el parecido antes de la publicación.
 
-To learn more about Next.js, take a look at the following resources:
+Prompt: nuevo retrato editorial profesional de Génesis Ojeda, conservando rostro, cabello oscuro y tono de piel de las referencias; blazer marfil, fondo beige con follaje oliva desenfocado, luz natural, composición vertical 4:5, expresión cálida, sin texto, diplomas ni marcas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Publicación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No se ha configurado hosting ni dominio. Al definir la URL pública, completar canonical, sitemap y URL absoluta para la imagen social. La página ya incluye título, descripción, idioma, Open Graph y Twitter metadata.
